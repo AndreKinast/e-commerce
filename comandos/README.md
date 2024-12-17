@@ -9,4 +9,10 @@ django-admin startproject loja .
 ````
 Configurar o git
 ````
-git 
+git config --global user.name 'seunome'
+git config --global user.email 'seuemail'
+git config --global init.defaultBranch main
+
+#configure o gitignore
+git init
+````
