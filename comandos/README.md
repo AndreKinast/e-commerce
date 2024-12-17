@@ -22,3 +22,8 @@ python manage.py startapp produto
 python manage.py startapp pedido
 python manage.py startapp perfil
 ````
+criar super user
+````
+python manage.py migrate
+python manage.py cratesuperuser
+````
